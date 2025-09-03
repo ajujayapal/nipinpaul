@@ -1,0 +1,17 @@
+ /*src/styles/typography.module.css*/
+
+.heading {
+  font-family: var(--heading-font), Georgia, serif;
+  font-weight: 600;
+}
+
+.body {
+  font-family: var(--common-font), Arial, sans-serif;
+  font-weight: 400;
+}
+
+.button {
+  font-family: var(--button-font), monospace;
+  font-weight: 500;
+  text-transform: uppercase;
+}

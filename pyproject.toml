@@ -1,0 +1,18 @@
+[project]
+name = "nipinpaul"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.40.20",
+    "django>=5.2.5",
+    "django-cors-headers>=4.7.0",
+    "django-environ>=0.12.0",
+    "django-ses>=4.4.0",
+    "djangorestframework>=3.16.1",
+    "pillow>=11.3.0",
+    "resend>=2.13.1",
+    "sendgrid>=6.12.4",
+    "whitenoise>=6.9.0",
+]

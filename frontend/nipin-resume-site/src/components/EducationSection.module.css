@@ -1,0 +1,9 @@
+.educationItem {
+    border-bottom: 1px solid var(--primary-color);
+    padding: 1.2rem 0;
+}
+
+.degree {
+    font-size: 1.2rem;
+    font-weight: 600;
+}

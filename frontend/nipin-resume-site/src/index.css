@@ -1,0 +1,68 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@500;700&family=Roboto+Mono&display=swap');*/
+
+:root {
+    --primary-color: #76323F;
+    --secondary-color: #4B2C32;
+    --dark-gray: #A9A9A9;
+    --light-gray: #EFEFEF;
+    --off-black: #212A31;
+    --off-white: #D3D9D4;
+    --white-shade: #F7F7F7;
+    --heading-font: 'Playfair Display';
+    --common-font: 'Inter';
+    --button-font: 'Roboto Mono'
+}
+
+/*
+*   Kevin Powell
+*   https://youtu.be/cCAtD_BAHNw
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit; /* Get rid of all font sizes and heights */
+}
+
+html {
+  color-scheme: dark light; /* Default dark */
+  hanging-punctuation: first last; /* Not supported in Chrome */
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* Media responsive */
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+p {
+  max-width: 75ch;
+  text-wrap: pretty; /* Prevents orphans on lines */
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :has(:target) {
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+  }
+}

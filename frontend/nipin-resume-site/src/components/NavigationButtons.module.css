@@ -1,0 +1,14 @@
+.navButton {
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  border: 4px solid white;
+  /*border-radius: 8px;*/
+  cursor: pointer;
+  background-color: var(--primary-color); /* pastel pink */
+  color: white;
+}
+
+.navButton:hover {
+  background-color: var(--off-white);
+  color: black;
+}

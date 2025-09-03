@@ -1,0 +1,34 @@
+/* src/components/Sidebar.module.css */
+.sidebarBox {
+  margin-bottom: 1.5rem;
+  /*padding: 1rem;*/
+  /*background-color: #f7f7f7;*/
+  background-color: var(--white-shade);
+  /*border: 1px solid #ddd;*/
+  border-radius: 6px;
+}
+
+.title {
+    background-color: var(--primary-color);
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    color: white;
+    padding: 0.8rem;
+}
+
+.list {
+  list-style: none;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.listItem {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.4rem;
+    font-family: var(--common-font), Arial, sans-serif;
+    font-size: 0.9rem;
+    color: black;
+    border-bottom: 1px solid black;
+}

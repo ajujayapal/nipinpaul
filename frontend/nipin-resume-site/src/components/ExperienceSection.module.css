@@ -1,0 +1,28 @@
+.experienceItem {
+    padding-bottom: 2rem;
+}
+
+.jobTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.responsibilities {
+    margin-top: 1rem;
+}
+
+.responsibilityItem {
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    margin-left: 1.2rem;
+}
+
+.responsibilityItem > span:first-child {
+    align-self: flex-start;
+    margin-top: 0.5rem;
+}
+
+.pillIcon {
+    margin-right:18px;
+}
