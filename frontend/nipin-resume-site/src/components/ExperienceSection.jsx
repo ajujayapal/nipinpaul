@@ -22,6 +22,10 @@ const ExperienceSection = () => {
       return dateObject.toLocaleDateString('en-US', dateOptions);
   }
 
+  if (!experience.length) {
+      return (<div>Coming soon</div>)
+  }
+
   return (
     <section>
       <h2>Experience</h2>

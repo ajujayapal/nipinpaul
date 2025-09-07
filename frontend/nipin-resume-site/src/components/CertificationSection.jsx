@@ -13,6 +13,10 @@ function CertificationSection() {
       .catch(console.error);
   }, []);
 
+
+  if (!certifications.length) {
+      return;
+  }
   return (
     <div className={styles.certificationSection}>
       <h2>Certifications</h2>
@@ -57,28 +61,6 @@ function CertificationSection() {
             </tbody>
         </table>
 
-      {/*<ul>*/}
-      {/*  {certifications.map(cert => (*/}
-      {/*    <li key={cert.id} className={styles.certItem}>*/}
-      {/*      <span className={styles.title}>{cert.name}</span>*/}
-      {/*      <span className={styles.org}>{cert.issuer}</span>*/}
-      {/*      <span className={styles.date}>{cert.year}</span>*/}
-
-      {/*      {cert.certificate_image && (*/}
-      {/*        <a*/}
-      {/*          href={cert.certificate_image}*/}
-      {/*          download*/}
-      {/*          target="_blank"*/}
-      {/*          rel="noopener noreferrer"*/}
-      {/*          className={styles.downloadIcon}*/}
-      {/*          title="Download Certificate"*/}
-      {/*        >*/}
-      {/*          <FiDownload />*/}
-      {/*        </a>*/}
-      {/*      )}*/}
-      {/*    </li>*/}
-      {/*  ))}*/}
-      {/*</ul>*/}
     </div>
   );
 }
